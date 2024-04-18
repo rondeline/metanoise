@@ -10,15 +10,19 @@ library(ggplot2)
 library(rstanarm)
 
 #Load data
-metanoise_p2 <- read_survey("metanoise_p2.csv") 
+metanoise_s1 <- read_survey("metanoise_s1.csv") 
 
 #Set as df
-setDF(metanoise_p2)
+setDF(metanoise_s1)
 
 #Tidy demographic data
-metanoise_p2_demographics <- metanoise_p2 |> 
+metanoise_s1_demographics <- metanoise_s1 |> 
   clean_names() |>
   select(response_id, age_1_4:age_3_4,sex_1_1:traffic_bike, age_caregiver:education_adult) |>
+  rename("adults" = household_breakdown_5,
+         "children_6_17" = household_breakdown_6,
+         "children_3_5" = household_breakdown_7,
+         "children_birth_2" = household_breakdown_8) |> 
   rename_with(~str_remove(.x, "_\\d+$"), everything()) |> 
   pivot_longer(cols = age_1:diagnosis_3,
                names_to = c(".value", "set"),
@@ -29,9 +33,10 @@ metanoise_p2_demographics <- metanoise_p2 |>
          !is.na(sex))
 
 #Tidy trial data
-metanoise_p2_trials <- metanoise_p2 |> 
+metanoise_s1_trials <- metanoise_s1 |> 
   clean_names() |>
-  select(response_id, x1_babble_1:x3_construction_13) |>
+  select(response_id, x1_babble_listen_story:x3_construction_count) |>
+  
   pivot_longer(cols = -response_id,
                names_to = c("set", ".value"),
                names_sep = "(?<=x\\d)_") |> 
@@ -40,31 +45,23 @@ metanoise_p2_trials <- metanoise_p2 |>
                          set == "x3" ~ 3)) |> 
   pivot_longer(cols = -c(response_id, set),
                names_to = "sound",
-               values_to = "rating") |> 
-  mutate(activity = str_extract(sound, "\\d+$"),
-         sound = str_replace(sound, "_\\d+$", ""),
-         activity = case_when(
-           activity == 1 ~ "listen_story",
-           activity == 2 ~ "sleep",
-           activity == 3 ~ "learn_game",
-           activity == 4 ~ "dance",
-           activity == 5 ~ "math",
-           activity == 6 ~ "talk_about_day",
-           activity == 7 ~ "remember_list",
-           activity == 8 ~ "brush_teeth",
-           activity == 9 ~ "puzzle",
-           activity == 10 ~ "color",
-           activity == 11 ~ "read",
-           activity == 12 ~ "play",
-           activity == 13 ~ "count")) |>
-  filter(!is.na(rating))
+               values_to = "rating") |>
+  separate(sound, into = c("sound", "activity"), sep = "_", extra = "merge") |> 
+  mutate(activity = str_replace_all(activity, "_", " "),
+         attention_check = case_when(sound == "ac" ~ activity, TRUE ~ NA_character_)) |>
+  filter(!(sound == "ac" & rating != "attention check")) |>  
+  filter(!is.na(rating)) |> 
+  select(-attention_check)
+  
+
+View(metanoise_s1_trials)
 
 #Join demographic and trial dfs by response_id and set
-metanoise_p2_tidy <- full_join(x = metanoise_p2_trials,
-                               y = metanoise_p2_demographics,
+metanoise_s1_tidy <- full_join(x = metanoise_s1_trials,
+                               y = metanoise_s1_demographics,
                                by = c("response_id", "set")) |>
   arrange(response_id) |> 
-  group_by(response_id) |> 
+  group_by(response_id, set) |> 
   mutate(subject_id = cur_group_id()) |>
   select(subject_id, everything()) |>
   ungroup() |>
@@ -75,7 +72,11 @@ metanoise_p2_tidy <- full_join(x = metanoise_p2_trials,
                             rating == "A little easy" ~ 4,
                             rating == "Very easy" ~ 5),
          mean_rating = mean(rating),
-         sd_rating = sd(rating))
+         sd_rating = sd(rating), 
+         sem_rating = sd(rating)/sqrt(n()), 
+         ci_rating = sd(rating)/sqrt(n()) * 1.96)
+
+View(metanoise_s1_tidy)
 
 #Analyze other survey question trends 
 metanoise_p2_other_qs <- metanoise_p2_tidy |>
@@ -136,7 +137,7 @@ metanoise_p2_other_qs <- metanoise_p2_tidy |>
 
 #Data Visualization
 ##Performance rating by activity and sound (bar)
-ggplot(metanoise_p2_tidy, mapping = aes(x = activity, y = mean_rating, fill = sound)) +
+ggplot(metanoise_s1_tidy, mapping = aes(x = activity, y = mean_rating, fill = sound)) +
   geom_bar(position = "dodge", stat = "identity") +
   geom_errorbar(aes(y = mean_rating,
                     ymin = mean_rating - sd_rating,
@@ -147,16 +148,36 @@ ggplot(metanoise_p2_tidy, mapping = aes(x = activity, y = mean_rating, fill = so
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ##Performance rating by activity and sound (scatter)
-ggplot(metanoise_p2_tidy, mapping = aes(x = activity, y = rating, col = sound)) +
-  geom_point(stat = "identity", alpha = 0.5, position = position_jitter(width = 0.2)) +
+ggplot(metanoise_s1_tidy, mapping = aes(x = sound, y = rating, col = sound)) +
+  geom_point(stat = "identity", alpha = 0.1, position = position_jitter(width = 0.2, height = 0.2)) +
   geom_errorbar(aes(y = mean_rating,
                     ymin = mean_rating - sd_rating,
                     ymax = mean_rating + sd_rating),
                 position = position_dodge(width = 0.2),
                 width = 0.2) + 
-  facet_wrap(~sound) +
+  geom_point(aes(y = mean_rating), col = "black", size = 10, pch = "-") +
+  facet_wrap(~activity) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
+## Mike meeting plot
+# making an ordered predictor
+metanoise_s1_tidy$activity_ordered <-
+  forcats::fct_reorder(metanoise_s1_tidy$activity, 
+                       desc(metanoise_s1_tidy$mean_rating))
+
+ggplot(metanoise_s1_tidy, mapping = aes(x = activity_ordered, y = mean_rating, 
+                                        col = sound)) +
+  geom_point(position = position_dodge(width = .3))+
+  geom_linerange(aes(ymin = mean_rating - ci_rating,
+                     ymax = mean_rating + ci_rating),
+                 position = position_dodge(width = .3)) + 
+  geom_line(aes(group=sound)) +
+  ylim(1,5.5) +
+  xlab("Activity") + 
+  ylab("Rating (Very Easy - Very Hard)") +
+  theme_bw()+ 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  
 ##TV usage by age 
 ggplot(metanoise_p2_demographics, mapping = aes(x = age, y= tv, fill = age)) +
   geom_bar(stat = "identity", position = "dodge") +
@@ -178,12 +199,30 @@ ggplot(metanoise_p2_tidy, mapping = aes(x = age, y = mean_rating, fill = sound))
   facet_wrap(~activity)
 
 ##Performance rating by activity, sound, and age (geom_smooth)
-ggplot(metanoise_p2_tidy, mapping = aes(x = age, y = rating, col = sound)) +
-  geom_point(position = position_dodge(width = 0.2), stat = "identity") +
+ggplot(metanoise_s1_tidy, mapping = aes(x = age, y = rating, col = sound)) +
   geom_smooth(method = "lm") + 
   facet_wrap(~activity)
 
-Ωz#Performance by CHAOS score
+#geom_point(position = position_dodge(width = 0.2)) +
+
+##Do parents just think kids do better with age?
+ggplot(metanoise_s1_tidy, mapping = aes(x = age, y = rating, col = sound)) +
+  geom_smooth(method = "lm") 
+
+ggplot(metanoise_s1_tidy, mapping = aes(x = age, y = rating, col = sound)) +
+  geom_smooth(method = "lm") + 
+  facet_wrap(~activity)
+
+mod <- lme4::lmer(rating ~ age * activity * sound + (1|subject_id), 
+           data = metanoise_s1_tidy)
+summary(mod)
+
+mod <- lme4::lmer(rating ~ age * sound + (1|subject_id) + (age|activity), 
+                  data = metanoise_s1_tidy)
+summary(mod)
+
+
+#Performance by CHAOS score
 ggplot(metanoise_p2_other_qs, mapping = aes(x = rating, y = chaos_score, col = sound)) +
   geom_point(position = position_dodge(width = 0.2), stat = "identity") +
   geom_smooth(method = "lm") + 
