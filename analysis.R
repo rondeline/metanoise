@@ -65,21 +65,22 @@ metanoise_s1_tidy <- full_join(x = metanoise_s1_trials,
   mutate(subject_id = cur_group_id()) |>
   select(subject_id, everything()) |>
   ungroup() |>
-  group_by(activity, sound) |> 
-  mutate(rating = case_when(rating == "Very hard" ~ 1,
-                            rating == "A little hard" ~ 2,
+  group_by(activity, sound, age) |>
+  filter(diagnosis == "none") |> 
+  mutate(rating = case_when(rating == "Very hard" ~ 5,
+                            rating == "A little hard" ~ 4,
                             rating == "Neither hard nor easy" ~ 3,
-                            rating == "A little easy" ~ 4,
-                            rating == "Very easy" ~ 5),
+                            rating == "A little easy" ~ 2,
+                            rating == "Very easy" ~ 1),
          mean_rating = mean(rating),
          sd_rating = sd(rating), 
          sem_rating = sd(rating)/sqrt(n()), 
-         ci_rating = sd(rating)/sqrt(n()) * 1.96)
+         ci_rating = sd(rating)/sqrt(n()) * 1.96) 
 
 View(metanoise_s1_tidy)
 
 #Analyze other survey question trends 
-metanoise_p2_other_qs <- metanoise_p2_tidy |>
+metanoise_s1_other_qs <- metanoise_s1_tidy |>
   group_by(subject_id) |> 
   mutate(chaos_commotion = if_else(chaos_commotion == FALSE, 1, 0),
          chaos_zoo = if_else(chaos_zoo == TRUE, 1, 0),
@@ -188,8 +189,12 @@ ggplot(metanoise_p2_demographics, mapping = aes(x = age, y= tv, fill = age)) +
                 width = 0.2)
 
 ##Performance rating by activity, sound, and age (bar)
-ggplot(metanoise_p2_tidy, mapping = aes(x = age, y = mean_rating, fill = sound)) +
-  geom_bar(position = "dodge", stat = "identity") +
+ggplot(metanoise_s1_tidy, mapping = aes(x = age, y = mean_rating, col = sound)) +
+  geom_point(aes(group = sound), position = position_jitter(width = 0.2, height = 0.2), alpha = 0.3, stat = "identity") +
+  geom_smooth(method = "lm") +
+  facet_wrap(~activity) +
+  ylab("Mean Rating (Very Hard - Very Easy)")
+  
   geom_errorbar(aes(y = mean_rating,
                     ymin = mean_rating - sd_rating,
                     ymax = mean_rating + sd_rating),
@@ -205,7 +210,7 @@ ggplot(metanoise_s1_tidy, mapping = aes(x = age, y = rating, col = sound)) +
 
 #geom_point(position = position_dodge(width = 0.2)) +
 
-##Do parents just think kids do better with age?
+##Do parents think kids do better with age?
 ggplot(metanoise_s1_tidy, mapping = aes(x = age, y = rating, col = sound)) +
   geom_smooth(method = "lm") 
 
@@ -222,11 +227,12 @@ mod <- lme4::lmer(rating ~ age * sound + (1|subject_id) + (age|activity),
 summary(mod)
 
 
-#Performance by CHAOS score
-ggplot(metanoise_p2_other_qs, mapping = aes(x = rating, y = chaos_score, col = sound)) +
+#Ratings by CHAOS score
+ggplot(metanoise_s1_other_qs, mapping = aes(x = rating, y = chaos_score, col = sound)) +
   geom_point(position = position_dodge(width = 0.2), stat = "identity") +
   geom_smooth(method = "lm") + 
-  facet_wrap(~activity)
+  facet_wrap(~activity) +
+  xlab("Rating (Very Hard - Very Easy)")
 
 
 ##Model performance

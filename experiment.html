@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    <script src="https://unpkg.com/jspsych@7.3.4"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-audio-keyboard-response@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-audio-button-response@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.3"></script>
+    <script src="jspsych-psychophysics-3.6.0/jspsych-psychophysics.js"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-free-sort@1.0.3"></script>
+    <link href="https://unpkg.com/jspsych@7.3.4/css/jspsych.css" rel="stylesheet" type="text/css" />
+    <style>
+      .green-button {
+        background-color: green;
+        color: white; /* Change text color to contrast with background */
+        border: none; /* Remove button border */
+        padding: 10px 20px; /* Adjust padding for better appearance */
+      }
+
+      .response-button {
+        background-color: #4CAF50; /* Green background */
+        border: none; /* Remove borders */
+        color: white; /* White text */
+        padding: 20px 40px; /* Padding */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make the buttons appear in a row */
+        font-size: 24px; /* Increase font size */
+        margin: 25px; /* Add margin */
+        cursor: pointer; /* Add cursor pointer */
+        border-radius: 8px; /* Add rounded corners */
+      }
+
+      .background-basket {
+        background-image: url('img/basket.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body></body>
+  <script>
+    //load jsPsych
+    var jsPsych = initJsPsych();
+
+    // define experiment timeline
+    var timeline = [];
+
+    var pictures = ['img/ball_blue.png',
+                    'img/ball_blue.png',
+                    'img/ball_green.png',
+                    'img/ball_green.png',
+                    'img/ball_green.png',
+                    'img/ball_red.png',
+                    'img/ball_red.png',
+                    'img/ball_yellow.png',
+                    'img/ball_yellow.png',
+                    'img/ball_yellow.png',
+                    'img/ball_yellow.png'
+                  ];
+    var sounds = ['mp3/number_green_balls.wav'];
+
+    // preload images
+    var preload = {
+      type: jsPsychPreload,
+      images: pictures,
+      audio: sounds
+    };
+
+    // add preload to timeline
+    timeline.push(preload);
+
+    // Define the function to end the trial
+    var endTrial = function() {
+      jsPsych.finishTrial();
+    };
+
+    // welcome message
+    var welcome = {
+      type: jsPsychHtmlButtonResponse,
+      button_html: '<button class="green-button">GO!</button>',
+      stimulus: "<img src = 'img/ball_blue.png'>",
+      choices: ['go'],
+      on_finish: endTrial
+    };
+
+    // add welcome message to timeline
+    timeline.push(welcome);
+
+    // define drag trials
+    var dragBalls = {
+      type: jsPsychFreeSort,
+      stimuli: pictures,
+      stim_width: 50,
+      stim_height: 50,
+      sort_area_shape: 'square',
+      sort_area_width: 1300,
+      sort_area_height: 600,
+      stim_starts_inside: true,
+      prompt: "<div id='free-sort-container'><img id='basket-image' src='img/basket.png' class='background-basket'></div>"
+    };
+        
+    //add drag trials to timeline
+    timeline.push(dragBalls);
+
+    // Function to play audio
+    function playAudio(audioFile) {
+          var audio = new Audio(audioFile);
+          audio.play();
+    }
+
+    //define ball coordinates
+    var imageCoordinates = [
+      { x: -100, y: 100 }, // blue
+      { x: 250, y: -150 }, // blue
+      { x: 125, y: -100 }, // green
+      { x: -400, y: -20 }, // green
+      { x: 350, y: 75 }, // green
+      { x: -500, y: -30 }, // red
+      { x: 0, y: -50 }, // red
+      { x: -200, y: 10 }, // yellow
+      { x: 0, y: -300 }, // yellow
+      { x: 400, y: -225 }, // yellow
+      { x: -400, y: -200 } // yellow
+];
+
+    //define balls trial
+    var ballTrial = {
+      type: jsPsychAudioButtonResponse,
+      stimulus: sounds,
+      choices: ['1', '2', '3'],
+      button_html: function() {
+        var html = '';
+
+        // Display buttons for choices
+        html += '<div class="button-container" style="position: absolute; bottom: 20px; width: auto; left: 50%; transform: translateX(-50%); text-align: center;">';
+        for (var j = 0; j < 3; j++) {
+          var audioFile = '';
+          if (j === 0) {
+            audioFile = 'mp3/one.wav';
+          } else if (j === 1) {
+            audioFile = 'mp3/two.wav';
+          } else if (j === 2) {
+            audioFile = 'mp3/three.wav';
+          }
+
+          // Generate button HTML with the determined audioFile and position
+          var buttonHTML = '<button class="response-button" onmouseover="playAudio(\'' + audioFile + '\')" onclick="endTrial()"> ' + (j + 1) + '</button>';
+          html += buttonHTML;
+        }
+        html += '</div>';
+        return html;
+      },
+      prompt: function() {
+        var html = '<div class="container" style="position: relative;">';
+      
+        // Dynamically generate image elements
+        for (var i = 0; i < pictures.length; i++) {
+          var coordinates = imageCoordinates[i];
+          html += "<img src='" + pictures[i] + "' class='image' style='position: absolute; top: " + coordinates.y + "px; left: " + coordinates.x + "px; width: 100px; height: 100px;'>";
+        }
+        html += '</div>';
+        return html;
+      }
+    };
+
+    timeline.push(ballTrial);
+
+    //all done
+    var end = {
+      type: jsPsychHtmlButtonResponse,
+      button_html: '<button class="green-button">Finish</button>',
+      stimulus: "You have completed the experiment. Press the button to finish.",
+      choices: ['finish'],
+      on_finish: function() {
+        jsPsych.endExperiment('The experiment has ended.');
+      }
+    };
+
+    // run experiment
+    jsPsych.run(timeline)
+
+  </script>
+</html>
