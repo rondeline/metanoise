@@ -8,6 +8,8 @@ library(stringr)
 library(data.table)
 library(ggplot2)
 library(rstanarm)
+library(loo)
+library(ggmap)
 
 #Load data
 metanoise_s1 <- read_survey("metanoise_s1.csv") 
@@ -81,7 +83,6 @@ View(metanoise_s1_tidy)
 
 #Analyze other survey question trends 
 metanoise_s1_other_qs <- metanoise_s1_tidy |>
-  group_by(subject_id) |> 
   mutate(chaos_commotion = if_else(chaos_commotion == FALSE, 1, 0),
          chaos_zoo = if_else(chaos_zoo == TRUE, 1, 0),
          chaos_talk = if_else(chaos_talk == FALSE, 1, 0),
@@ -133,8 +134,54 @@ metanoise_s1_other_qs <- metanoise_s1_tidy |>
                                   traffic_bike == "Somewhat agree" ~ 4,
                                   traffic_bike == "Neither agree nor disagree" ~ 3,
                                   traffic_bike == "Somewhat disagree" ~ 2,
-                                  traffic_bike == "Strongly disagree" ~ 1)) |> 
-  group_by(subject_id, activity, sound)
+                                  traffic_bike == "Strongly disagree" ~ 1),
+         neighborhood_score = door_fit + noise_in_home + noise_other_homes + noise_street + trash +
+         traffic + transit_walk + traffic_walk + traffic_bike,
+         mean_neighborhood_score = mean(neighborhood_score))
+#39
+View(metanoise_s1_other_qs)
+
+#Baseline model
+baseline_model <- stan_glm(rating ~ 1,
+                           family = "gaussian",
+                           data = metanoise_s1_other_qs)
+
+#Single interaction model
+set.seed(99)
+singleinteraction_model <- stan_glm(rating ~ sound * activity,
+                                    family = "gaussian",
+                                    data = metanoise_s1_other_qs)
+
+#Full model
+cl <- makeCluster(detectCores())
+registerDoParallel(cl)
+
+set.seed(283)
+full_model <- stan_glmer(rating ~ sound * activity + chaos_score + (sound * activity |subject_id),
+                    family = "gaussian",
+                    cores = 4,
+                    chains = 4,
+                    data = metanoise_s1_other_qs)
+
+stopCluster(cl)
+
+summary(full_model)
+
+full_model_df <- summary(full_model)
+
+# Compute the LOOIC (leave-one-out information criterion)
+loo_full_model <- loo(full_model)
+
+View(loo_full_model)
+
+# Extract AIC and BIC from the LOO result
+AIC <- loo_result$estimates["elpd_loo"] * 2
+BIC <- loo_result$estimates["elpd_loo"] * log(nrow(your_data)) * 2
+
+singleinteraction_model_df <- as.data.frame(singleinteraction_model)
+summary(baseline_model)
+summary(singleinteraction_model)
+View(singleinteraction_model_df)
 
 #Data Visualization
 ##Performance rating by activity and sound (bar)
@@ -179,15 +226,6 @@ ggplot(metanoise_s1_tidy, mapping = aes(x = activity_ordered, y = mean_rating,
   theme_bw()+ 
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
   
-##TV usage by age 
-ggplot(metanoise_p2_demographics, mapping = aes(x = age, y= tv, fill = age)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  geom_errorbar(aes(y = mean_tv,
-                    ymin = mean_tv - sd_tv,
-                    ymax = mean_tv + sd_tv),
-                position = "dodge",
-                width = 0.2)
-
 ##Performance rating by activity, sound, and age (bar)
 ggplot(metanoise_s1_tidy, mapping = aes(x = age, y = mean_rating, col = sound)) +
   geom_point(aes(group = sound), position = position_jitter(width = 0.2, height = 0.2), alpha = 0.3, stat = "identity") +
@@ -232,8 +270,67 @@ ggplot(metanoise_s1_other_qs, mapping = aes(x = rating, y = chaos_score, col = s
   geom_point(position = position_dodge(width = 0.2), stat = "identity") +
   geom_smooth(method = "lm") + 
   facet_wrap(~activity) +
-  xlab("Rating (Very Hard - Very Easy)")
+  xlab("Rating (Very Easy - Very Hard)")
 
+#Ratings by traffic patterns
+
+##Density plot
+ggplot(metanoise_s1_other_qs, mapping = aes(x = neighborhood_score)) +
+  geom_density(fill = "skyblue", color = "blue")
+
+ggplot(check, mapping = aes(x = noise, y = mean_rating_c, col = sound)) +
+  geom_boxplot() +
+  geom_point(position = position_jitter(width = 0.2), stat = "identity", alpha = 0.5) +
+  geom_linerange(aes(ymin = mean_rating_c - ci_rating_c,
+                     ymax = mean_rating_c + ci_rating_c),
+                 position = position_dodge(width = .3))
+
+check <- metanoise_s1_other_qs |>
+  ungroup() |>
+  mutate(neighborhood_resource = case_when(neighborhood_score <= 13 ~ 3,
+                                           neighborhood_score > 13 & neighborhood_score < 26 ~ 2,
+                                           neighborhood_score > 26 ~ 1),
+         noise = door_fit + noise_in_home + noise_other_homes + noise_street + traffic) |> 
+  group_by(sound, activity) |> 
+  summarise(mean_rating_c = mean(rating),
+            sd_rating_c = sd(rating), 
+            sem_rating_c = sd(rating)/sqrt(n()), 
+            ci_rating_c = sd(rating)/sqrt(n()) * 1.96,
+            n = n(),
+            neighborhood_resource = neighborhood_resource,
+            noise = noise,
+            subject_id = subject_id) |> 
+  select(subject_id, everything())
+
+
+View(check)
+
+lat_lon <- metanoise_s1 |>
+  select(LocationLatitude, LocationLongitude) |> 
+  clean_names() |> 
+  na.omit() 
+
+convert_to_zip <- function(location_longitude, location_latitude) {
+  address <- revgeocode(c(location_longitude, location_latitude), output = "postalCode")
+  return(address)
+}
+
+test_address <- revgeocode(c(-74.0060, 40.7128), output = "postalCode")
+print(test_address)
+
+convert_to_zip <- function(location_longitude, location_latitude) {
+  print(paste("Longitude:", location_longitude, "Latitude:", location_latitude)) # Diagnostic print
+  address <- revgeocode(c(location_longitude, location_latitude), output = "postalCode")
+  print(address) # Diagnostic print
+  return(address)
+}
+
+# Pipe dataframe into conversion function and create a new column for zip codes
+geo <- lat_lon %>%
+  mutate(zip_code = mapply(convert_to_zip, location_longitude, location_latitude))
+
+# Print the result
+print(geo)
 
 ##Model performance
 metanoise_glmer <- stan_glmer(rating ~ activity * sound + (1|subject_id),
