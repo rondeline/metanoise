@@ -3,17 +3,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metanoise - Picture</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fix.css">
 </head>
 <body>
-
-<!-- Progress Bar (hidden by default) -->
-<div id="progress-container" style="display: none;">
+    
+  <!-- Progress Bar (hidden by default) -->
+  <div id="progress-container" style="display: none;">
     <p>Loading...</p>
-    <div id="progress-bar" style="width: 50%; background-color: #f3f3f3; border: 1px solid #ccc;">
-        <div id="progress-fill" style="width: 0%; background-color: #4caf50; height: 20px;"></div>
+    <div id="progress-bar" style="width: 100%; background-color: #f3f3f3; border: 1px solid #ccc;">
+      <div id="progress-fill" style="width: 0%; background-color: #4caf50; height: 20px;"></div>
     </div>
-</div>
+  </div>
 
   <!-- Start Page -->
   <div id="start-container">
@@ -23,13 +23,11 @@
 
   <!-- Game Container -->
   <div id="game-container" style="display: none;">
-    <p id="question-text"></p>
     <form id="question-form"></form>
+    <!-- Content will be dynamically added here, including questions and video -->
   </div>
 
   <!-- JavaScript -->
-  <script src="script.js"></script>
+  <script src="fix.js"></script>
 </body>
 </html>
-
-

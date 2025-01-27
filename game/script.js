@@ -1,3 +1,7 @@
+let currentPage = 1;  // Track the current page
+let currentQuestionIndex = 0;  // Track the current question within the page
+const responses = [];  // Store user responses
+
 // Arrays of media file URLs
 const videoFiles = [
     "https://stanforduniversity.qualtrics.com/ControlPanel/File.php?F=F_8fc8602pVdH5xSC", /*loading*/
@@ -62,92 +66,7 @@ const imageFiles = [
     "https://stanforduniversity.qualtrics.com/ControlPanel/Graphic.php?IM=IM_nHyg5d9GIMBPdVX" /*banana*/
 ];
 
-// Function to preload media with a progress bar
-function preloadMediaWithProgress(callback) {
-    const totalFiles = videoFiles.length + audioFiles.length + imageFiles.length;
-    console.log('Total Files to Preload:', videoFiles.length + audioFiles.length + imageFiles.length);
-    let loadedFiles = 0;
-
-    // Create a progress bar
-    const progressBar = document.createElement('div');
-    progressBar.style.width = "50%";
-    progressBar.style.height = "20px";
-    progressBar.style.border = "1px solid #000";
-    progressBar.style.position = "absolute";
-    progressBar.style.top = "50%";
-    progressBar.style.left = "50%";
-    progressBar.style.transform = "translate(-50%, -50%)";
-    document.body.appendChild(progressBar);
-
-    const progressFill = document.createElement('div');
-    progressFill.style.height = "100%";
-    progressFill.style.width = "0%";
-    progressFill.style.backgroundColor = "#00f";
-    progressBar.appendChild(progressFill);
-
-    // Function to update progress
-    function updateProgress(fileUrl) {
-        loadedFiles++;
-        console.log(`Loaded: ${fileUrl} (${loadedFiles}/${totalFiles})`);
-        const progress = (loadedFiles / totalFiles) * 100;
-        progressFill.style.width = `${progress}%`;
-
-        if (loadedFiles === totalFiles) {
-            console.log("Media preloading complete!");
-            document.body.removeChild(progressBar); // Remove the progress bar
-
-            // Call the callback function when preloading is complete
-            if (callback && typeof callback === 'function') {
-            callback(); // Show the first page or start the game
-            }
-        }
-    }
-
-    // Preload videos
-        videoFiles.forEach((videoUrl) => {
-            const video = document.createElement('video');
-            video.src = videoUrl;
-            video.preload = "auto"; // Preload the video
-            video.oncanplaythrough = () => updateProgress(videoUrl, loadPage);
-            video.onerror = () => console.error(`Failed to load video: ${videoUrl}`);
-            video.style.display = "none"; // Hide the video element
-            document.body.appendChild(video); // Append to the body temporarily
-        });
-
-        // Preload audio
-        audioFiles.forEach((audioUrl) => {
-            const audio = document.createElement('audio');
-            audio.src = audioUrl;
-            audio.preload = "auto"; // Preload the audio
-            audio.oncanplaythrough = () => updateProgress(audioUrl, loadPage);
-            audio.onerror = () => console.error(`Failed to load audio: ${audioUrl}`);
-            audio.style.display = "none"; // Hide the audio element
-            document.body.appendChild(audio); // Append to the body temporarily
-        });
-
-        // Preload images
-        imageFiles.forEach((imageUrl) => {
-            const img = new Image();
-            img.src = imageUrl; // Set the image source
-            img.onload = updateProgress(imageUrl);
-            img.onerror = () => console.error(`Failed to load image: ${imageUrl}`);
-        });
-}
-
-// Start button logic
-document.getElementById('start-button').addEventListener('click', function () {
-    // Hide the start container
-    document.getElementById('start-container').style.display = 'none';
-  
-    // Preload media files before showing the game container
-    preloadMediaWithProgress(() => {
-        document.getElementById('game-container').style.display = 'block';
-        // Load the first page of questions
-        loadPage(currentPage);
-    });
-});
-
-// Array of set up questions with a page property
+// Intro questions
 const questions = [
     {
         text: "1. experimenter",
@@ -192,171 +111,154 @@ const questions = [
     },
 ];
 
-//Hand tablet to child
-function loadHandTablet() {
-    // Clear any existing content in the form
-    const questionForm = document.getElementById('question-form');
-    questionForm.innerHTML = '';
-    
-    // Create new container 
-    const handTabletContainer = document.createElement('div');
-    handTabletContainer.classList.add('hand-tablet-container');
+// Preload media with a progress bar
+function preloadMediaWithProgress(callback) {
+    const totalFiles = videoFiles.length + audioFiles.length + imageFiles.length;
+    let loadedFiles = 0;
 
-    // Add text
-    const handTabletText = document.createElement('p');
-    handTabletText.textContent = "hand tablet to child";
-    handTabletContainer.appendChild(handTabletText);
+    // Create progress bar
+    const progressBar = document.createElement('div');
+    progressBar.style.width = "50%";
+    progressBar.style.height = "20px";
+    progressBar.style.border = "1px solid #000";
+    progressBar.style.position = "absolute";
+    progressBar.style.top = "50%";
+    progressBar.style.left = "50%";
+    progressBar.style.transform = "translate(-50%, -50%)";
+    document.body.appendChild(progressBar);
 
-    // Add next button
-    handTabletContainer.innerHTML += '<button type="button" id="next-button">Next</button>';
+    const progressFill = document.createElement('div');
+    progressFill.style.height = "100%";
+    progressFill.style.width = "0%";
+    progressFill.style.backgroundColor = "#00f";
+    progressBar.appendChild(progressFill);
 
-    // Add the hand tablet container to the form
-    questionForm.appendChild(handTabletContainer);
+    function updateProgress(fileUrl) {
+        loadedFiles++;
+        const progress = (loadedFiles / totalFiles) * 100;
+        progressFill.style.width = `${progress}%`;
 
-    // Add event listener to the new Next button
-    document.getElementById('next-button').addEventListener('click', function() {
-        // Load instruction video
-        currentPage++;
+        if (loadedFiles === totalFiles) {
+            document.body.removeChild(progressBar);
+            if (callback) callback();
+        }
+    }
+
+    videoFiles.forEach((url) => {
+        const video = document.createElement('video');
+        video.src = url;
+        video.preload = "auto";
+        video.oncanplaythrough = () => updateProgress(url);
+        video.onerror = () => console.error(`Failed to load video: ${url}`);
+    });
+
+    audioFiles.forEach((url) => {
+        const audio = document.createElement('audio');
+        audio.src = url;
+        audio.preload = "auto";
+        audio.oncanplaythrough = () => updateProgress(url);
+        audio.onerror = () => console.error(`Failed to load audio: ${url}`);
+    });
+
+    imageFiles.forEach((url) => {
+        const img = new Image();
+        img.src = url;
+        img.onload = () => updateProgress(url);
+        img.onerror = () => console.error(`Failed to load image: ${url}`);
+    });
+}
+
+// Start button logic
+document.getElementById('start-button').addEventListener('click', () => {
+    document.getElementById('start-container').style.display = 'none';
+    preloadMediaWithProgress(() => {
+        document.getElementById('game-container').style.display = 'block';
         loadPage(currentPage);
     });
-}
+});
 
-
-let currentPage = 1; // Track the current page
-let currentQuestionIndex = 0; // Track the current question within the page
-const responses = []; // Store user responses
-
-// Function to load questions for the current page
+// Load questions for the current page
 function loadPage(pageNumber) {
-    // Filter questions for the current page
+    console.log("Loading page:", pageNumber);
     const questionsForPage = questions.filter(q => q.page === pageNumber);
 
-    // Clear any existing content in the form
+    if (!questionsForPage.length) {
+        console.warn(`No questions for page ${pageNumber}`);
+        return;
+    }
+
     const questionForm = document.getElementById('question-form');
     questionForm.innerHTML = '';
+    questionsForPage.forEach((q) => renderQuestion(q, questionForm));
 
-    // Render each question for the current page
-    questionsForPage.forEach((question) => {
-        renderQuestion(question, questionForm);
-    });
-
-    // Add the Next button
-    questionForm.innerHTML += '<button type="button" id="next-button">Next</button>';
-
-    // Add event listener to the new Next button
-    document.getElementById('next-button').addEventListener('click', handleNextPage);
+    const nextButton = document.createElement("button");
+    nextButton.textContent = "Next";
+    nextButton.type = "button";
+    nextButton.addEventListener('click', handleNextPage);
+    questionForm.appendChild(nextButton);
 }
 
-// Function to render a single question
 function renderQuestion(question, questionForm) {
-    // Create a new div for each question
     const questionContainer = document.createElement('div');
-    questionContainer.classList.add('question-container');
-
-    // Set the question text inside the container
     const questionText = document.createElement('p');
     questionText.textContent = question.text;
     questionContainer.appendChild(questionText);
 
-    // Render the options for multiple-choice questions
     if (question.type === "mcq") {
-        question.options.forEach((option, index) => {
+        question.options.forEach((option) => {
             const label = document.createElement('label');
             const radio = document.createElement('input');
-            radio.type = 'radio';
+            radio.type = "radio";
             radio.name = question.name;
             radio.value = option;
             label.appendChild(radio);
-            label.appendChild(document.createTextNode(option.charAt(0).toUpperCase() + option.slice(1)));
+            label.appendChild(document.createTextNode(option));
             questionContainer.appendChild(label);
-            questionContainer.appendChild(document.createElement('br'));
-
-            // If the option is "other", create the "Other" input field
-            if (option === "other") {
-                const otherInput = document.createElement('input');
-                otherInput.type = 'text';
-                otherInput.id = `other-text-${index}`;  // Ensure unique id for each "Other" input
-                otherInput.placeholder = "Please type your response here";
-                questionContainer.appendChild(otherInput);
-
-            }
         });
     } else if (question.type === "free") {
-        // Render a text input for free-response questions
-        const freeResponseInput = document.createElement('textarea');
-        freeResponseInput.id = "free-response";
-        freeResponseInput.name = question.name;
-        freeResponseInput.rows = 4;
-        freeResponseInput.cols = 50;
-        freeResponseInput.placeholder = "Type your response here";
-        questionContainer.appendChild(freeResponseInput);
-        questionContainer.appendChild(document.createElement('br'));
+        const input = document.createElement('textarea');
+        input.name = question.name;
+        input.rows = 4;
+        input.cols = 50;
+        questionContainer.appendChild(input);
     }
 
-    // Add the question container to the form
     questionForm.appendChild(questionContainer);
 }
 
-// Function to handle the "Next" button click
+// Handle the next button click
 function handleNextPage() {
-    const question = questions[currentQuestionIndex];
-
-    // Capture the response based on the question type
+    const currentQuestions = questions.filter(q => q.page === currentPage);
+    const question = currentQuestions[currentQuestionIndex];
     let answer;
+
     if (question.type === "mcq") {
         const selectedOption = document.querySelector(`input[name="${question.name}"]:checked`);
         if (selectedOption) {
             answer = selectedOption.value;
-            if (answer === "other") {
-                const otherInput = document.getElementById(`other-text-${currentQuestionIndex}`);
-                if (otherInput && otherInput.value.trim() !== "") {
-                    answer = otherInput.value;
-                }
-            }
         }
     } else if (question.type === "free") {
-        const freeResponseInput = document.getElementById("free-response");
-        if (freeResponseInput && freeResponseInput.value.trim() !== "") {
-            answer = freeResponseInput.value;
+        const input = document.querySelector(`textarea[name="${question.name}"]`);
+        if (input && input.value.trim() !== "") {
+            answer = input.value;
         }
     }
 
     if (answer) {
         responses.push({ question: question.text, answer });
-        console.log("Current Responses:", responses);
     } else {
         alert("Please answer the question before proceeding.");
         return;
     }
 
-    // Move to the next question or next page
     currentQuestionIndex++;
-
-    // If we're done with set up questions, load the hand tablet instruction
-    if (currentQuestionIndex < questions.filter(q => q.page === currentPage).length) {
-        if (currentPage == 1) {
-            loadHandTablet();
+    if (currentQuestionIndex < currentQuestions.length) {
+        const questionForm = document.getElementById('question-form');
+        questionForm.innerHTML = '';
+        renderQuestion(currentQuestions[currentQuestionIndex], questionForm);
     } else {
+        currentQuestionIndex = 0;
         currentPage++;
-        loadPage (currentPage);
+        loadPage(currentPage);
     }
-} else {
-    loadPage(currentPage);
-}
-}
-
-// Function to download responses as a CSV
-function downloadResponses() {
-    let csvContent = "data:text/csv;charset=utf-8,Question,Answer\n";
-    responses.forEach(response => {
-        csvContent += `${response.question},${response.answer}\n`;
-    });
-
-    const encodedUri = encodeURI(csvContent);
-    const link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "responses.csv");
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
 }
