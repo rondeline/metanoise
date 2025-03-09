@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metanoise - Number</title>
+  <link rel="stylesheet" href="number.css">
+</head>
+<body>
+    
+  <!-- Progress Bar (hidden by default) -->
+  <div id="progress-container" style="display: none;">
+    <p>Loading...</p>
+    <div id="progress-bar" style="width: 100%; background-color: #f3f3f3; border: 1px solid #ccc;">
+      <div id="progress-fill" style="width: 0%; background-color: #4caf50; height: 20px;"></div>
+    </div>
+  </div>
+
+  <!-- Start Page -->
+  <div id="start-container">
+    <h1>Number Game</h1>
+    <button type="button" id="start-button">Start</button>
+  </div>
+
+  <!-- Game Container -->
+  <div id="game-container" style="display: none;">
+    <form id="question-form"></form>
+    <!-- Content will be dynamically added here, including questions and video -->
+  </div>
+
+  <!-- JavaScript -->
+  <script src="number.js"></script>
+</body>
+</html>
