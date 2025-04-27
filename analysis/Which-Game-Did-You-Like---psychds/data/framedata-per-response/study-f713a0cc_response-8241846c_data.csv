@@ -1,0 +1,457 @@
+"response_uuid","child_hashed_id","frame_id","event_number","key","value"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","0-preload","","success",True
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","0-preload","","timeout",False
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","0-preload","","trial_type","preload"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","0-preload","","trial_index",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","0-preload","","time_elapsed",1099
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","0-preload","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","1-preload","","success",True
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","1-preload","","timeout",False
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","1-preload","","trial_type","preload"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","1-preload","","trial_index",1
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","1-preload","","time_elapsed",2331
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","1-preload","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","2-preload","","success",True
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","2-preload","","timeout",False
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","2-preload","","trial_type","preload"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","2-preload","","trial_index",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","2-preload","","time_elapsed",3629
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","2-preload","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","3-html-button-response","","rt",2683
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","3-html-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","3-html-button-response","","stimulus","Welcome! Press ""next"" to continue."
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","3-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","3-html-button-response","","trial_index",3
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","3-html-button-response","","time_elapsed",6314
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","3-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","4-video-config-plugin","","rt",26186
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","4-video-config-plugin","","camId","82a0fcb845263e8d4680be74c4b2a4469f7b98be16746d976f66f868d8ac5928"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","4-video-config-plugin","","micId","a93efdc8b29a457c1c8965c86f8097a33f9a8b7488f39922b9540364522533ea"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","4-video-config-plugin","","trial_type","video-config-plugin"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","4-video-config-plugin","","trial_index",4
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","4-video-config-plugin","","time_elapsed",32532
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","4-video-config-plugin","","plugin_version","3.0.1"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","5-consent-video","","chs_type","consent"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","5-consent-video","","trial_type","consent-video"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","5-consent-video","","trial_index",5
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","5-consent-video","","time_elapsed",69963
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","5-consent-video","","plugin_version","3.0.1"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","rt",54101
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","chs_type","consent"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","response.audio",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","response.video",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","response.Ready?",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","response.question1",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","trial_type","survey"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","trial_index",6
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","time_elapsed",124116
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","6-survey","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","7-video-button-response","","rt",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","7-video-button-response","","response",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","7-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/directions.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","7-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","7-video-button-response","","trial_index",7
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","7-video-button-response","","time_elapsed",157384
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","7-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","8-html-button-response","","rt",19707
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","8-html-button-response","","response",1
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","8-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; max-width: 90vw; margin: auto; margin-bottom: 50px;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","8-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","8-html-button-response","","trial_index",8
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","8-html-button-response","","time_elapsed",177094
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","8-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","9-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","9-html-button-response","","trial_index",9
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","9-html-button-response","","time_elapsed",191242
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","9-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","10-html-button-response","","rt",15909
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","10-html-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","10-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; max-width: 90vw; margin: auto; margin-bottom: 50px;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","10-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","10-html-button-response","","trial_index",10
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","10-html-button-response","","time_elapsed",207153
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","10-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","11-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","11-html-button-response","","trial_index",11
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","11-html-button-response","","time_elapsed",219913
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","11-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","12-start-record-plugin","","trial_type","start-record-plugin"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","12-start-record-plugin","","trial_index",12
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","12-start-record-plugin","","time_elapsed",220357
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","12-start-record-plugin","","plugin_version",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","13-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","13-html-button-response","","trial_index",13
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","13-html-button-response","","time_elapsed",226338
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","13-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","14-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","14-html-button-response","","trial_index",14
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","14-html-button-response","","time_elapsed",245037
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","14-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","15-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","15-html-button-response","","trial_index",15
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","15-html-button-response","","time_elapsed",260970
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","15-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","15-html-button-response","","correct_response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","16-video-button-response","","rt",10460
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","16-video-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","16-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_gotit.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","16-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","16-video-button-response","","trial_index",16
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","16-video-button-response","","time_elapsed",271431
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","16-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","17-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","17-html-button-response","","trial_index",17
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","17-html-button-response","","time_elapsed",283626
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","17-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","17-html-button-response","","correct_response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","18-video-button-response","","rt",14023
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","18-video-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","18-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_readytoplay.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","18-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","18-video-button-response","","trial_index",18
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","18-video-button-response","","time_elapsed",297650
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","18-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","19-html-button-response","","rt",21157
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","19-html-button-response","","response",3
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","19-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","19-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","19-html-button-response","","trial_index",19
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","19-html-button-response","","time_elapsed",318808
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","19-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","20-html-button-response","","rt",53101
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","20-html-button-response","","response",7
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","20-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/balloon.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","20-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","20-html-button-response","","trial_index",20
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","20-html-button-response","","time_elapsed",371910
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","20-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","21-html-button-response","","rt",23964
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","21-html-button-response","","response",5
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","21-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/basketball.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","21-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","21-html-button-response","","trial_index",21
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","21-html-button-response","","time_elapsed",395874
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","21-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","22-html-button-response","","rt",20695
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","22-html-button-response","","response",5
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","22-html-button-response","","stimulus","
+        <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+            <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/flowers.png"" style=""max-width: 80%; height: auto;"">
+        </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","22-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","22-html-button-response","","trial_index",22
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","22-html-button-response","","time_elapsed",416571
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","22-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","23-html-button-response","","rt",16932
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","23-html-button-response","","response",4
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","23-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/monkey.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","23-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","23-html-button-response","","trial_index",23
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","23-html-button-response","","time_elapsed",433505
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","23-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","24-html-button-response","","rt",13327
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","24-html-button-response","","response",3
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","24-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/pig.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","24-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","24-html-button-response","","trial_index",24
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","24-html-button-response","","time_elapsed",446833
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","24-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","rt",11497
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/crayons.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","trial_index",25
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","time_elapsed",458331
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","extension_type.0","chs-trial-record-extension"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","25-html-button-response","","extension_version.0",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","26-html-button-response","","rt",35700
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","26-html-button-response","","response",9
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","26-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/cookies.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","26-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","26-html-button-response","","trial_index",26
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","26-html-button-response","","time_elapsed",494031
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","26-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","27-video-button-response","","rt",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","27-video-button-response","","response",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","27-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_finished.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","27-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","27-video-button-response","","trial_index",27
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","27-video-button-response","","time_elapsed",500959
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","27-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","28-html-button-response","","rt",11554
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","28-html-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","28-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","28-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","28-html-button-response","","trial_index",28
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","28-html-button-response","","time_elapsed",512514
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","28-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","29-html-keyboard-response","","trial_type","html-keyboard-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","29-html-keyboard-response","","trial_index",29
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","29-html-keyboard-response","","time_elapsed",524394
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","29-html-keyboard-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","30-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","30-html-button-response","","trial_index",30
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","30-html-button-response","","time_elapsed",537107
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","30-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","31-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","31-html-button-response","","trial_index",31
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","31-html-button-response","","time_elapsed",579581
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","31-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","31-html-button-response","","correct_response",3
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","32-video-button-response","","rt",7431
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","32-video-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","32-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_gotit.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","32-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","32-video-button-response","","trial_index",32
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","32-video-button-response","","time_elapsed",587013
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","32-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","33-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","33-html-button-response","","trial_index",33
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","33-html-button-response","","time_elapsed",598340
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","33-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","33-html-button-response","","correct_response",1
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","34-video-button-response","","rt",9610
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","34-video-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","34-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_readytoplay.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","34-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","34-video-button-response","","trial_index",34
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","34-video-button-response","","time_elapsed",607951
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","34-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","35-html-keyboard-response","","rt",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","35-html-keyboard-response","","response",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","35-html-keyboard-response","","stimulus","<p>Get ready!</p>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","35-html-keyboard-response","","trial_type","html-keyboard-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","35-html-keyboard-response","","trial_index",35
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","35-html-keyboard-response","","time_elapsed",608453
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","35-html-keyboard-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","36-html-button-response","","rt",14747
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","36-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","36-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/flower_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","36-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","36-html-button-response","","trial_index",36
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","36-html-button-response","","time_elapsed",623201
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","36-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","37-html-button-response","","rt",2532
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","37-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","37-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/pot_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","37-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","37-html-button-response","","trial_index",37
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","37-html-button-response","","time_elapsed",625734
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","37-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","38-html-button-response","","rt",3324
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","38-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","38-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/tree_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","38-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","38-html-button-response","","trial_index",38
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","38-html-button-response","","time_elapsed",629059
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","38-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","39-html-button-response","","rt",2100
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","39-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","39-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/fish_picture.png"" style=""width: 65%; height: auto; max-width: none;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","39-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","39-html-button-response","","trial_index",39
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","39-html-button-response","","time_elapsed",631160
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","39-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","40-html-button-response","","rt",4559
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","40-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","40-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/cat_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","40-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","40-html-button-response","","trial_index",40
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","40-html-button-response","","time_elapsed",635720
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","40-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","41-html-button-response","","rt",4017
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","41-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","41-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/bowl_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","41-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","41-html-button-response","","trial_index",41
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","41-html-button-response","","time_elapsed",639738
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","41-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","42-html-button-response","","rt",2394
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","42-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","42-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/scissors_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","42-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","42-html-button-response","","trial_index",42
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","42-html-button-response","","time_elapsed",642133
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","42-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","43-html-button-response","","rt",1924
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","43-html-button-response","","response",2
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","43-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/door_picture.png"" style=""width: 75%; height: auto; max-width: none;"">
+    </div>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","43-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","43-html-button-response","","trial_index",43
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","43-html-button-response","","time_elapsed",644058
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","43-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","44-html-keyboard-response","","rt",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","44-html-keyboard-response","","response",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","44-html-keyboard-response","","stimulus","<p>Trials complete! Please wait...</p>"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","44-html-keyboard-response","","trial_type","html-keyboard-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","44-html-keyboard-response","","trial_index",44
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","44-html-keyboard-response","","time_elapsed",644560
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","44-html-keyboard-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","45-video-button-response","","rt",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","45-video-button-response","","response",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","45-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_finished.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","45-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","45-video-button-response","","trial_index",45
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","45-video-button-response","","time_elapsed",651488
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","45-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","46-html-button-response","","rt",13842
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","46-html-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","46-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","46-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","46-html-button-response","","trial_index",46
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","46-html-button-response","","time_elapsed",665335
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","46-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","47-html-button-response","","rt",33505
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","47-html-button-response","","response",1
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","47-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","47-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","47-html-button-response","","trial_index",47
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","47-html-button-response","","time_elapsed",698840
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","47-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","48-html-button-response","","rt",11004
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","48-html-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","48-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","48-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","48-html-button-response","","trial_index",48
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","48-html-button-response","","time_elapsed",709845
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","48-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","49-stop-record-plugin","","trial_type","stop-record-plugin"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","49-stop-record-plugin","","trial_index",49
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","49-stop-record-plugin","","time_elapsed",824617
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","49-stop-record-plugin","","plugin_version",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","50-html-button-response","","rt",22899
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","50-html-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","50-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","50-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","50-html-button-response","","trial_index",50
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","50-html-button-response","","time_elapsed",847517
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","50-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","51-video-button-response","","rt",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","51-video-button-response","","response",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","51-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_underthesea.mp4"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","51-video-button-response","","trial_type","video-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","51-video-button-response","","trial_index",51
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","51-video-button-response","","time_elapsed",865658
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","51-video-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","52-html-button-response","","rt",15142
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","52-html-button-response","","response",0
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","52-html-button-response","","stimulus","
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""position: absolute; top: 75px; left: 0px; width: 250px;"">
+    "
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","52-html-button-response","","trial_type","html-button-response"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","52-html-button-response","","trial_index",52
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","52-html-button-response","","time_elapsed",880801
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","52-html-button-response","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","rt",44886
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","chs_type","consent"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","response.race.0","Caucasian/White"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","response.email","howershopper@gmail.com"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","response.english","All of the time"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","response.counting","Know their numbers and can count to at least 10"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","response.education","Bachelor's degree"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","trial_type","survey"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","trial_index",53
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","time_elapsed",925723
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","53-survey","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","rt",29621
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","chs_type","exit"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","response.feedback",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","response.birthDate","2020-11-26"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","response.useOfMedia","scientific"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","response.withdrawal",False
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","response.databraryShare","yes"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","trial_type","survey"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","trial_index",54
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","time_elapsed",955381
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","54-survey","","plugin_version","2.0.0"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","rt",9549
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","chs_type","consent"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","response.question1",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","response.question2",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","response.question3",""
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","trial_type","survey"
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","trial_index",55
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","time_elapsed",964943
+"8241846c-cd7e-4d5c-ad97-233baf7b21b1","MXMYMS","55-survey","","plugin_version","2.0.0"

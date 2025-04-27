@@ -1,0 +1,457 @@
+"response_uuid","child_hashed_id","frame_id","event_number","key","value"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","0-preload","","success",True
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","0-preload","","timeout",False
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","0-preload","","trial_type","preload"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","0-preload","","trial_index",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","0-preload","","time_elapsed",770
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","0-preload","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","1-preload","","success",True
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","1-preload","","timeout",False
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","1-preload","","trial_type","preload"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","1-preload","","trial_index",1
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","1-preload","","time_elapsed",11141
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","1-preload","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","2-preload","","success",True
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","2-preload","","timeout",False
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","2-preload","","trial_type","preload"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","2-preload","","trial_index",2
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","2-preload","","time_elapsed",21918
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","2-preload","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","3-html-button-response","","rt",2898
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","3-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","3-html-button-response","","stimulus","Welcome! Press ""next"" to continue."
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","3-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","3-html-button-response","","trial_index",3
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","3-html-button-response","","time_elapsed",24819
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","3-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","4-video-config-plugin","","rt",22592
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","4-video-config-plugin","","camId","6e2f9932cde1f1c3447aa8fe785bda1cb9bfe92bcd75ad6e3dde1fc7df43e4a5"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","4-video-config-plugin","","micId","31c81bdf45f57b356a04f7189c7ff32c20eb9c57bc02732ce9ba22ff4459275d"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","4-video-config-plugin","","trial_type","video-config-plugin"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","4-video-config-plugin","","trial_index",4
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","4-video-config-plugin","","time_elapsed",47492
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","4-video-config-plugin","","plugin_version","3.0.1"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","5-consent-video","","chs_type","consent"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","5-consent-video","","trial_type","consent-video"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","5-consent-video","","trial_index",5
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","5-consent-video","","time_elapsed",89564
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","5-consent-video","","plugin_version","3.0.1"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","rt",33285
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","chs_type","consent"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","response.audio",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","response.video",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","response.Ready?",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","response.question1",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","trial_type","survey"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","trial_index",6
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","time_elapsed",123077
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","6-survey","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","7-video-button-response","","rt",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","7-video-button-response","","response",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","7-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/directions.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","7-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","7-video-button-response","","trial_index",7
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","7-video-button-response","","time_elapsed",156436
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","7-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","8-html-button-response","","rt",17111
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","8-html-button-response","","response",1
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","8-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; max-width: 90vw; margin: auto; margin-bottom: 50px;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","8-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","8-html-button-response","","trial_index",8
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","8-html-button-response","","time_elapsed",173560
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","8-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","9-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","9-html-button-response","","trial_index",9
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","9-html-button-response","","time_elapsed",187644
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","9-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","10-html-button-response","","rt",37550
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","10-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","10-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; max-width: 90vw; margin: auto; margin-bottom: 50px;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","10-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","10-html-button-response","","trial_index",10
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","10-html-button-response","","time_elapsed",225209
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","10-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","11-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","11-html-button-response","","trial_index",11
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","11-html-button-response","","time_elapsed",238044
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","11-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","12-start-record-plugin","","trial_type","start-record-plugin"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","12-start-record-plugin","","trial_index",12
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","12-start-record-plugin","","time_elapsed",238470
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","12-start-record-plugin","","plugin_version",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","13-html-keyboard-response","","trial_type","html-keyboard-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","13-html-keyboard-response","","trial_index",13
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","13-html-keyboard-response","","time_elapsed",250290
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","13-html-keyboard-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","14-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","14-html-button-response","","trial_index",14
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","14-html-button-response","","time_elapsed",269104
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","14-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","15-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","15-html-button-response","","trial_index",15
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","15-html-button-response","","time_elapsed",277138
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","15-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","15-html-button-response","","correct_response",2
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","16-video-button-response","","rt",9273
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","16-video-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","16-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_gotit.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","16-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","16-video-button-response","","trial_index",16
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","16-video-button-response","","time_elapsed",286416
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","16-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","17-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","17-html-button-response","","trial_index",17
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","17-html-button-response","","time_elapsed",311935
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","17-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","17-html-button-response","","correct_response",1
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","18-video-button-response","","rt",9489
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","18-video-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","18-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_readytoplay.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","18-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","18-video-button-response","","trial_index",18
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","18-video-button-response","","time_elapsed",321432
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","18-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","19-html-keyboard-response","","rt",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","19-html-keyboard-response","","response",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","19-html-keyboard-response","","stimulus","<p>Get ready!</p>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","19-html-keyboard-response","","trial_type","html-keyboard-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","19-html-keyboard-response","","trial_index",19
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","19-html-keyboard-response","","time_elapsed",321938
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","19-html-keyboard-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","20-html-button-response","","rt",43898
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","20-html-button-response","","response",5
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","20-html-button-response","","stimulus","
+        <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+            <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/flowers.png"" style=""max-width: 80%; height: auto;"">
+        </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","20-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","20-html-button-response","","trial_index",20
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","20-html-button-response","","time_elapsed",365843
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","20-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","21-html-button-response","","rt",7714
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","21-html-button-response","","response",5
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","21-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/balloon.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","21-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","21-html-button-response","","trial_index",21
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","21-html-button-response","","time_elapsed",373563
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","21-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","22-html-button-response","","rt",25402
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","22-html-button-response","","response",5
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","22-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/basketball.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","22-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","22-html-button-response","","trial_index",22
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","22-html-button-response","","time_elapsed",398969
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","22-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","23-html-button-response","","rt",12842
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","23-html-button-response","","response",5
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","23-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/cookies.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","23-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","23-html-button-response","","trial_index",23
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","23-html-button-response","","time_elapsed",411821
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","23-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","24-html-button-response","","rt",9211
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","24-html-button-response","","response",3
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","24-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/pig.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","24-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","24-html-button-response","","trial_index",24
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","24-html-button-response","","time_elapsed",421042
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","24-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","25-html-button-response","","rt",30457
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","25-html-button-response","","response",6
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","25-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","25-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","25-html-button-response","","trial_index",25
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","25-html-button-response","","time_elapsed",451508
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","25-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","26-html-button-response","","rt",25204
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","26-html-button-response","","response",4
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","26-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/monkey.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","26-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","26-html-button-response","","trial_index",26
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","26-html-button-response","","time_elapsed",476721
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","26-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","rt",3612
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","response",2
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/crayons.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","trial_index",27
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","time_elapsed",480344
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","extension_type.0","chs-trial-record-extension"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","27-html-button-response","","extension_version.0",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","28-html-keyboard-response","","rt",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","28-html-keyboard-response","","response",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","28-html-keyboard-response","","stimulus","<p>Trials complete! Please wait...</p>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","28-html-keyboard-response","","trial_type","html-keyboard-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","28-html-keyboard-response","","trial_index",28
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","28-html-keyboard-response","","time_elapsed",480855
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","28-html-keyboard-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","29-video-button-response","","rt",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","29-video-button-response","","response",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","29-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_finished.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","29-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","29-video-button-response","","trial_index",29
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","29-video-button-response","","time_elapsed",487925
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","29-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","30-html-button-response","","rt",5650
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","30-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","30-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","30-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","30-html-button-response","","trial_index",30
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","30-html-button-response","","time_elapsed",493581
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","30-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","31-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","31-html-button-response","","trial_index",31
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","31-html-button-response","","time_elapsed",499734
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","31-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","32-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","32-html-button-response","","trial_index",32
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","32-html-button-response","","time_elapsed",512538
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","32-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","33-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","33-html-button-response","","trial_index",33
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","33-html-button-response","","time_elapsed",526754
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","33-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","33-html-button-response","","correct_response",3
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","34-video-button-response","","rt",11145
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","34-video-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","34-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_gotit.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","34-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","34-video-button-response","","trial_index",34
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","34-video-button-response","","time_elapsed",537903
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","34-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","35-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","35-html-button-response","","trial_index",35
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","35-html-button-response","","time_elapsed",553586
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","35-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","35-html-button-response","","correct_response",1
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","36-video-button-response","","rt",14617
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","36-video-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","36-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_readytoplay.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","36-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","36-video-button-response","","trial_index",36
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","36-video-button-response","","time_elapsed",568210
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","36-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","37-html-button-response","","rt",14819
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","37-html-button-response","","response",2
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","37-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/flower_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","37-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","37-html-button-response","","trial_index",37
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","37-html-button-response","","time_elapsed",583036
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","37-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","38-html-button-response","","rt",13627
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","38-html-button-response","","response",3
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","38-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/scissors_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","38-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","38-html-button-response","","trial_index",38
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","38-html-button-response","","time_elapsed",596670
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","38-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","39-html-button-response","","rt",16326
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","39-html-button-response","","response",3
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","39-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/bowl_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","39-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","39-html-button-response","","trial_index",39
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","39-html-button-response","","time_elapsed",613004
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","39-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","40-html-button-response","","rt",24262
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","40-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","40-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/fish_picture.png"" style=""width: 65%; height: auto; max-width: none;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","40-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","40-html-button-response","","trial_index",40
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","40-html-button-response","","time_elapsed",637273
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","40-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","41-html-button-response","","rt",20096
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","41-html-button-response","","response",2
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","41-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/door_picture.png"" style=""width: 75%; height: auto; max-width: none;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","41-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","41-html-button-response","","trial_index",41
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","41-html-button-response","","time_elapsed",657377
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","41-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","42-html-button-response","","rt",8631
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","42-html-button-response","","response",2
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","42-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/pot_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","42-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","42-html-button-response","","trial_index",42
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","42-html-button-response","","time_elapsed",666016
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","42-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","43-html-button-response","","rt",16465
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","43-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","43-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/tree_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","43-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","43-html-button-response","","trial_index",43
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","43-html-button-response","","time_elapsed",682488
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","43-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","44-html-button-response","","rt",21689
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","44-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","44-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/cat_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","44-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","44-html-button-response","","trial_index",44
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","44-html-button-response","","time_elapsed",704184
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","44-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","45-video-button-response","","rt",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","45-video-button-response","","response",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","45-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_finished.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","45-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","45-video-button-response","","trial_index",45
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","45-video-button-response","","time_elapsed",711284
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","45-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","46-html-button-response","","rt",2714
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","46-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","46-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","46-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","46-html-button-response","","trial_index",46
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","46-html-button-response","","time_elapsed",714006
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","46-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","47-html-button-response","","rt",26138
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","47-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","47-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","47-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","47-html-button-response","","trial_index",47
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","47-html-button-response","","time_elapsed",740151
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","47-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","48-html-button-response","","rt",7180
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","48-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","48-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","48-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","48-html-button-response","","trial_index",48
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","48-html-button-response","","time_elapsed",747334
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","48-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","49-stop-record-plugin","","trial_type","stop-record-plugin"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","49-stop-record-plugin","","trial_index",49
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","49-stop-record-plugin","","time_elapsed",815066
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","49-stop-record-plugin","","plugin_version",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","50-html-button-response","","rt",31555
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","50-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","50-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","50-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","50-html-button-response","","trial_index",50
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","50-html-button-response","","time_elapsed",846624
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","50-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","51-video-button-response","","rt",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","51-video-button-response","","response",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","51-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_underthesea.mp4"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","51-video-button-response","","trial_type","video-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","51-video-button-response","","trial_index",51
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","51-video-button-response","","time_elapsed",864806
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","51-video-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","52-html-button-response","","rt",10979
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","52-html-button-response","","response",0
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","52-html-button-response","","stimulus","
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""position: absolute; top: 75px; left: 0px; width: 250px;"">
+    "
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","52-html-button-response","","trial_type","html-button-response"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","52-html-button-response","","trial_index",52
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","52-html-button-response","","time_elapsed",875793
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","52-html-button-response","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","rt",76571
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","chs_type","consent"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","response.race.0","Asian/Pacific Islander"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","response.email","tabassum.rajeb@gmail.com"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","response.english","Most of the time"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","response.counting","Know their numbers and can count to at least 10"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","response.education","Bachelor's degree"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","trial_type","survey"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","trial_index",53
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","time_elapsed",952439
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","53-survey","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","rt",40061
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","chs_type","exit"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","response.feedback","great"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","response.birthDate","2020-04-02"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","response.useOfMedia","private"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","response.withdrawal",False
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","response.databraryShare","yes"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","trial_type","survey"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","trial_index",54
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","time_elapsed",992542
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","54-survey","","plugin_version","2.0.0"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","rt",33755
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","chs_type","consent"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","response.question1",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","response.question2",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","response.question3",""
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","trial_type","survey"
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","trial_index",55
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","time_elapsed",1026320
+"facec187-3d3f-4518-90ca-588c1a963a5e","DRKHJF","55-survey","","plugin_version","2.0.0"

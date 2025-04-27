@@ -1,0 +1,442 @@
+"response_uuid","child_hashed_id","frame_id","event_number","key","value"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","0-preload","","success",True
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","0-preload","","timeout",False
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","0-preload","","trial_type","preload"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","0-preload","","trial_index",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","0-preload","","time_elapsed",1572
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","0-preload","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","1-preload","","success",True
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","1-preload","","timeout",False
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","1-preload","","trial_type","preload"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","1-preload","","trial_index",1
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","1-preload","","time_elapsed",10629
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","1-preload","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","2-preload","","success",True
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","2-preload","","timeout",False
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","2-preload","","trial_type","preload"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","2-preload","","trial_index",2
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","2-preload","","time_elapsed",23047
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","2-preload","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","3-html-button-response","","rt",6888
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","3-html-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","3-html-button-response","","stimulus","Welcome! Press ""next"" to continue."
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","3-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","3-html-button-response","","trial_index",3
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","3-html-button-response","","time_elapsed",29943
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","3-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","4-video-config-plugin","","rt",16620
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","4-video-config-plugin","","camId","230a581f58e1451003de84e320fe5711db59ac1d1ece605e7a32e7973a1962a8"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","4-video-config-plugin","","micId","3112b3b67bba3a06e3e0b72d9a9064ae3a9d3ffc6bdcd582ef641736187f62e8"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","4-video-config-plugin","","trial_type","video-config-plugin"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","4-video-config-plugin","","trial_index",4
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","4-video-config-plugin","","time_elapsed",47594
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","4-video-config-plugin","","plugin_version","3.0.1"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","5-consent-video","","chs_type","consent"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","5-consent-video","","trial_type","consent-video"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","5-consent-video","","trial_index",5
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","5-consent-video","","time_elapsed",86500
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","5-consent-video","","plugin_version","3.0.1"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","rt",53459
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","chs_type","consent"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","response.audio",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","response.video",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","response.Ready?",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","response.question1",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","trial_type","survey"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","trial_index",6
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","time_elapsed",140195
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","6-survey","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","7-video-button-response","","rt",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","7-video-button-response","","response",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","7-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/directions.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","7-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","7-video-button-response","","trial_index",7
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","7-video-button-response","","time_elapsed",173578
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","7-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","8-html-button-response","","rt",15795
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","8-html-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","8-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; max-width: 90vw; margin: auto; margin-bottom: 50px;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","8-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","8-html-button-response","","trial_index",8
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","8-html-button-response","","time_elapsed",189383
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","8-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","10-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","10-html-button-response","","trial_index",10
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","10-html-button-response","","time_elapsed",202183
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","10-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","11-start-record-plugin","","trial_type","start-record-plugin"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","11-start-record-plugin","","trial_index",11
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","11-start-record-plugin","","time_elapsed",202542
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","11-start-record-plugin","","plugin_version",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","12-html-keyboard-response","","trial_type","html-keyboard-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","12-html-keyboard-response","","trial_index",12
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","12-html-keyboard-response","","time_elapsed",214243
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","12-html-keyboard-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","13-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","13-html-button-response","","trial_index",13
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","13-html-button-response","","time_elapsed",227153
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","13-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","14-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","14-html-button-response","","trial_index",14
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","14-html-button-response","","time_elapsed",261219
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","14-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","14-html-button-response","","correct_response",3
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","15-video-button-response","","rt",8587
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","15-video-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","15-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_gotit.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","15-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","15-video-button-response","","trial_index",15
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","15-video-button-response","","time_elapsed",269813
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","15-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","16-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","16-html-button-response","","trial_index",16
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","16-html-button-response","","time_elapsed",295311
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","16-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","16-html-button-response","","correct_response",1
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","17-video-button-response","","rt",7068
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","17-video-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","17-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_readytoplay.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","17-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","17-video-button-response","","trial_index",17
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","17-video-button-response","","time_elapsed",302387
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","17-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","18-html-keyboard-response","","rt",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","18-html-keyboard-response","","response",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","18-html-keyboard-response","","stimulus","<p>Get ready!</p>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","18-html-keyboard-response","","trial_type","html-keyboard-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","18-html-keyboard-response","","trial_index",18
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","18-html-keyboard-response","","time_elapsed",302899
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","18-html-keyboard-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","19-html-button-response","","rt",79827
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","19-html-button-response","","response",3
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","19-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/pot_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","19-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","19-html-button-response","","trial_index",19
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","19-html-button-response","","time_elapsed",382734
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","19-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","20-html-button-response","","rt",5292
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","20-html-button-response","","response",3
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","20-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/scissors_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","20-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","20-html-button-response","","trial_index",20
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","20-html-button-response","","time_elapsed",388032
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","20-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","21-html-button-response","","rt",10236
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","21-html-button-response","","response",3
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","21-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/door_picture.png"" style=""width: 75%; height: auto; max-width: none;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","21-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","21-html-button-response","","trial_index",21
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","21-html-button-response","","time_elapsed",398274
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","21-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","22-html-button-response","","rt",5443
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","22-html-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","22-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/cat_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","22-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","22-html-button-response","","trial_index",22
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","22-html-button-response","","time_elapsed",403722
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","22-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","23-html-button-response","","rt",4597
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","23-html-button-response","","response",2
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","23-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/fish_picture.png"" style=""width: 65%; height: auto; max-width: none;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","23-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","23-html-button-response","","trial_index",23
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","23-html-button-response","","time_elapsed",408324
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","23-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","24-html-button-response","","rt",5125
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","24-html-button-response","","response",2
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","24-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/flower_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","24-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","24-html-button-response","","trial_index",24
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","24-html-button-response","","time_elapsed",413455
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","24-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","25-html-button-response","","rt",4080
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","25-html-button-response","","response",2
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","25-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/tree_picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","25-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","25-html-button-response","","trial_index",25
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","25-html-button-response","","time_elapsed",417547
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","25-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","26-html-button-response","","rt",4859
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","26-html-button-response","","response",1
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","26-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/bowl_picture.png"" style=""width: 70%; height: auto; max-width: none;"">
+    </div>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","26-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","26-html-button-response","","trial_index",26
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","26-html-button-response","","time_elapsed",422416
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","26-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","27-html-keyboard-response","","rt",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","27-html-keyboard-response","","response",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","27-html-keyboard-response","","stimulus","<p>Trials complete! Please wait...</p>"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","27-html-keyboard-response","","trial_type","html-keyboard-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","27-html-keyboard-response","","trial_index",27
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","27-html-keyboard-response","","time_elapsed",422924
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","27-html-keyboard-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","28-video-button-response","","rt",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","28-video-button-response","","response",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","28-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_finished.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","28-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","28-video-button-response","","trial_index",28
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","28-video-button-response","","time_elapsed",430037
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","28-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","29-html-button-response","","rt",7084
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","29-html-button-response","","response",1
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","29-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","29-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","29-html-button-response","","trial_index",29
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","29-html-button-response","","time_elapsed",437135
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","29-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","30-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","30-html-button-response","","trial_index",30
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","30-html-button-response","","time_elapsed",443252
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","30-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","31-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","31-html-button-response","","trial_index",31
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","31-html-button-response","","time_elapsed",462367
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","31-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","32-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","32-html-button-response","","trial_index",32
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","32-html-button-response","","time_elapsed",467004
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","32-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","32-html-button-response","","correct_response",2
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","33-video-button-response","","rt",7939
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","33-video-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","33-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_gotit.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","33-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","33-video-button-response","","trial_index",33
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","33-video-button-response","","time_elapsed",474950
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","33-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","34-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","34-html-button-response","","trial_index",34
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","34-html-button-response","","time_elapsed",480841
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","34-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","34-html-button-response","","correct_response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","35-video-button-response","","rt",8780
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","35-video-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","35-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_readytoplay.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","35-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","35-video-button-response","","trial_index",35
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","35-video-button-response","","time_elapsed",489630
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","35-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","36-html-button-response","","rt",9011
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","36-html-button-response","","response",6
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","36-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/cookies.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","36-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","36-html-button-response","","trial_index",36
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","36-html-button-response","","time_elapsed",498648
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","36-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","37-html-button-response","","rt",9579
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","37-html-button-response","","response",6
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","37-html-button-response","","stimulus","
+        <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+            <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/flowers.png"" style=""max-width: 80%; height: auto;"">
+        </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","37-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","37-html-button-response","","trial_index",37
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","37-html-button-response","","time_elapsed",508234
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","37-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","38-html-button-response","","rt",5153
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","38-html-button-response","","response",6
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","38-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/picture.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","38-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","38-html-button-response","","trial_index",38
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","38-html-button-response","","time_elapsed",513394
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","38-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","39-html-button-response","","rt",5714
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","39-html-button-response","","response",7
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","39-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/balloon.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","39-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","39-html-button-response","","trial_index",39
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","39-html-button-response","","time_elapsed",519115
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","39-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","40-html-button-response","","rt",5351
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","40-html-button-response","","response",3
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","40-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/pig.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","40-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","40-html-button-response","","trial_index",40
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","40-html-button-response","","time_elapsed",524471
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","40-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","rt",2592
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","response",2
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/crayons.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","trial_index",41
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","time_elapsed",527069
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","extension_type.0","chs-trial-record-extension"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","41-html-button-response","","extension_version.0",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","42-html-button-response","","rt",4200
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","42-html-button-response","","response",5
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","42-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/monkey.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","42-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","42-html-button-response","","trial_index",42
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","42-html-button-response","","time_elapsed",531278
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","42-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","43-html-button-response","","rt",4709
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","43-html-button-response","","response",5
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","43-html-button-response","","stimulus","
+    <div style=""display: flex; justify-content: center; padding: 0 5vw; max-width: 90vw; margin: 20px auto;"">
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/basketball.png"" style=""max-width: 80%; height: auto;"">
+    </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","43-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","43-html-button-response","","trial_index",43
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","43-html-button-response","","time_elapsed",535995
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","43-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","44-video-button-response","","rt",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","44-video-button-response","","response",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","44-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_finished.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","44-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","44-video-button-response","","trial_index",44
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","44-video-button-response","","time_elapsed",543002
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","44-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","45-html-button-response","","rt",5072
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","45-html-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","45-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","45-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","45-html-button-response","","trial_index",45
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","45-html-button-response","","time_elapsed",548083
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","45-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","46-html-button-response","","rt",28457
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","46-html-button-response","","response",1
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","46-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","46-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","46-html-button-response","","trial_index",46
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","46-html-button-response","","time_elapsed",576547
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","46-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","47-html-button-response","","rt",5533
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","47-html-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","47-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","47-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","47-html-button-response","","trial_index",47
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","47-html-button-response","","time_elapsed",582083
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","47-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","48-stop-record-plugin","","trial_type","stop-record-plugin"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","48-stop-record-plugin","","trial_index",48
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","48-stop-record-plugin","","time_elapsed",653547
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","48-stop-record-plugin","","plugin_version",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","49-html-button-response","","rt",23565
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","49-html-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","49-html-button-response","","stimulus","
+      <div style=""display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 90vw; margin: auto;"">
+          <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""width: 20vw; max-width: 200px; height: auto;"">
+      </div>
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","49-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","49-html-button-response","","trial_index",49
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","49-html-button-response","","time_elapsed",677116
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","49-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","50-video-button-response","","rt",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","50-video-button-response","","response",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","50-video-button-response","","stimulus.0","https://raw.githubusercontent.com/rondeline/metanoise/master/mp4/RMS70_underthesea.mp4"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","50-video-button-response","","trial_type","video-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","50-video-button-response","","trial_index",50
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","50-video-button-response","","time_elapsed",695397
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","50-video-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","51-html-button-response","","rt",2279
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","51-html-button-response","","response",0
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","51-html-button-response","","stimulus","
+        <img src=""https://raw.githubusercontent.com/rondeline/metanoise/master/img/floatinghead.png"" style=""position: absolute; top: 75px; left: 0px; width: 250px;"">
+    "
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","51-html-button-response","","trial_type","html-button-response"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","51-html-button-response","","trial_index",51
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","51-html-button-response","","time_elapsed",697684
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","51-html-button-response","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","rt",35544
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","chs_type","consent"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","response.race.0","Caucasian/White"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","response.email","PamelaPIA@aol.com"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","response.english","All of the time"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","response.counting","Know their numbers and can count to at least 10"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","response.education","Bachelor's degree"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","trial_type","survey"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","trial_index",52
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","time_elapsed",733392
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","52-survey","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","rt",10606
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","chs_type","exit"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","response.feedback",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","response.birthDate","2020-04-16"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","response.useOfMedia","public"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","response.withdrawal",False
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","response.databraryShare","yes"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","trial_type","survey"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","trial_index",53
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","time_elapsed",744127
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","53-survey","","plugin_version","2.0.0"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","rt",4608
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","chs_type","consent"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","response.question1",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","response.question2",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","response.question3",""
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","trial_type","survey"
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","trial_index",54
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","time_elapsed",748779
+"d259052f-d4df-45a4-b59c-d19ffa467a7c","WTAPRY","54-survey","","plugin_version","2.0.0"
